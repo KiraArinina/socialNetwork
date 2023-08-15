@@ -1,0 +1,34 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+
+.dialog .dialogsItems {
+    padding: 10px;
+    color: white;
+}
+
+.dialogsItems .active {
+    color: goldenrod;
+}
+
+.dialogsItems .dialog {
+
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+    color: dimgrey;
+}
+
+.messageAdd {
+    display: flex;
+    justify-content: center;
+}
+
+.messageAdd .text {
+    height: 100px;
+}
